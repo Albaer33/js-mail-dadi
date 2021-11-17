@@ -4,7 +4,7 @@ const userEmail=prompt('immetti il tuo indirizzo email: ');
 let flag=false;
 
 for (let i=0; i<email.length; i++) {
-    thisEmail=email[i];
+    const thisEmail=email[i];
     if (userEmail===thisEmail) {
         flag=true
     }
